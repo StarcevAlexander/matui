@@ -23,9 +23,9 @@ jobs:
       - uses: actions/checkout@v7
       - uses: dtolnay/rust-toolchain@stable
       - name: Build interactive gallery
-        run: cargo run --example basic > gallery.html
+        run: mkdir -p _pages && cargo run --example basic > _pages/index.html
       - uses: actions/upload-pages-artifact@v5
         with:
-          path: .
+          path: _pages
       - id: deployment
         uses: actions/deploy-pages@v5
