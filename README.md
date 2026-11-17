@@ -4,6 +4,20 @@ Material Design 3 UI components for Rust: typed builders that render styled, fra
 
 No JS runtime, no framework lock-in. Works with axum, actix-web, rocket, static site generators, or plain string output. Selection controls, sliders and text fields are real `<input>` elements and stay interactive without JavaScript.
 
+![matui gallery](https://raw.githubusercontent.com/StarcevAlexander/matui/main/docs/screenshots/gallery-hero.png)
+
+*(Full-page gallery: [gallery-full.png](https://raw.githubusercontent.com/StarcevAlexander/matui/main/docs/screenshots/gallery-full.png))*
+
+## Interactive demo
+
+Run the bundled gallery example and open the generated file in a browser — checkboxes, switches, sliders and text fields are live:
+
+```bash
+cargo run --example basic > gallery.html
+```
+
+The `main` branch of the repository also serves this gallery via GitHub Pages: https://starcevalexander.github.io/matui/
+
 ## Usage
 
 ```rust
