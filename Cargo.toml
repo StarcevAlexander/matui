@@ -1,12 +1,13 @@
 [package]
 name = "matui"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
-description = "Material Design UI components for Rust: builders that render styled, framework-agnostic HTML"
+description = "Material Design 3 (M3) UI components for Rust - typed builders that render framework-agnostic HTML and CSS for axum, actix-web, rocket, SSR and static sites. Zero JavaScript."
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/StarcevAlexander/matui"
+homepage = "https://starcevalexander.github.io/matui/"
 readme = "README.md"
-keywords = ["ui", "material", "html", "css", "components"]
+keywords = ["ui", "material-design", "html", "css", "components"]
 categories = ["web-programming", "gui"]
 
 [dependencies]
